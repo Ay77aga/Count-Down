@@ -51,7 +51,7 @@ function creatOpt() {
     month_s.appendChild(opt);
   }
   let day_now = new Date().getDate();
-  for (let i = 1; i <= 30; i++) {
+  for (let i = 1; i <= 31; i++) {
     let opt = document.createElement('option');
     opt.textContent = i;
     if (i == day_now + 2) {
