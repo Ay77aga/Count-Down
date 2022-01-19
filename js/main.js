@@ -54,7 +54,7 @@ function creatOpt() {
   for (let i = 1; i <= 30; i++) {
     let opt = document.createElement('option');
     opt.textContent = i;
-    if (i == day_now) {
+    if (i == day_now + 2) {
       opt.setAttribute('selected', '')
     }
     day_s.appendChild(opt);
